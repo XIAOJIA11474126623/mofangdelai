@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>candy.ai replica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell" data-view="home">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="brand" data-route="home" aria-label="Home">candy<span>.ai</span></button>
+        <nav class="tabs" aria-label="Character categories">
+          <button class="tab active"><i data-lucide="venus"></i>Girls</button>
+          <button class="tab"><i data-lucide="swirl"></i>Anime</button>
+          <button class="tab"><i data-lucide="mars"></i>Guys</button>
+        </nav>
+        <div class="top-actions">
+          <button class="primary-btn">Create Free Account</button>
+          <button class="outline-btn">Login</button>
+        </div>
+      </header>
+
+      <aside class="sidebar">
+        <nav class="main-nav" aria-label="Main navigation">
+          <button class="nav-item active" data-route="home"><i data-lucide="house"></i><span>Home</span></button>
+          <button class="nav-item" data-route="discover"><i data-lucide="compass"></i><span>Discover</span></button>
+          <button class="nav-item" data-route="chat"><i data-lucide="message-circle"></i><span>Chat</span></button>
+          <button class="nav-item"><i data-lucide="image"></i><span>Collection</span></button>
+          <button class="nav-item"><i data-lucide="wand-sparkles"></i><span>Create Character</span></button>
+          <button class="nav-item"><i data-lucide="heart-crack"></i><span>My AI</span></button>
+          <button class="nav-item premium"><i data-lucide="gem"></i><span>Premium</span><b>-55%</b></button>
+        </nav>
+        <nav class="support-nav" aria-label="Support navigation">
+          <button class="nav-item"><span class="flag">🇺🇸</span><span>English</span></button>
+          <button class="nav-item"><i data-lucide="disc-3"></i><span>Discord</span></button>
+          <button class="nav-item"><i data-lucide="circle-help"></i><span>Help Center</span></button>
+          <button class="nav-item"><i data-lucide="handshake"></i><span>Contact Us</span></button>
+          <button class="nav-item"><i data-lucide="trophy"></i><span>Affiliate</span></button>
+          <p class="legal">Legal Terms&nbsp;&nbsp;•&nbsp;&nbsp;Trust &amp; Safety</p>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <section class="home-view view-panel">
+          <div class="hero-carousel">
+            <button class="carousel-arrow left" aria-label="Previous"><i data-lucide="chevron-left"></i></button>
+            <div class="hero-copy">
+              <p class="script">Moonlit letters</p>
+              <h1>Your New Companion</h1>
+              <p>Candy Shorts</p>
+              <button>Watch now</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Featured companion" />
+            <button class="carousel-arrow right" aria-label="Next"><i data-lucide="chevron-right"></i></button>
+            <div class="dots"><span></span><span></span><span class="active"></span><span></span><span></span></div>
+          </div>
+
+          <div class="story-row" aria-label="Featured profiles">
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=240&q=80" alt="Kasia" /><span>Kasia</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=240&q=80" alt="Kim" /><span>Kim</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=240&q=80" alt="Sp00kybby" /><span>Sp00kybby</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=240&q=80" alt="Kira" /><span>Kira</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=240&q=80" alt="Azura" /><span>Azura</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80" alt="Sofia" /><span>Sofia</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=240&q=80" alt="Sanyae" /><span>Sanyae</span></button>
+            <button class="story" data-route="chat"><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=240&q=80" alt="Yuna" /><span>Yuna</span></button>
+          </div>
+
+          <div class="section-heading"><span>New</span> Experiences</div>
+          <div class="experience-row">
+            <article class="experience-card tall" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1524255684952-d7185b509571?auto=format&fit=crop&w=520&q=80" alt="VelvetHex" />
+              <span class="live">LIVE</span>
+              <h3>VelvetHex</h3>
+            </article>
+            <article class="experience-card promo">
+              <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=520&q=80" alt="Shorts" />
+              <h3>SHORTS</h3>
+              <button>Watch now</button>
+            </article>
+            <article class="experience-card tall" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=520&q=80" alt="Candy Cams" />
+              <span class="live">LIVE</span>
+              <h3>Candy Cams</h3>
+            </article>
+            <article class="experience-card promo wheel">
+              <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=520&q=80" alt="Candy Roulette" />
+              <h3>Candy Roulette</h3>
+            </article>
+            <article class="experience-card tall">
+              <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=520&q=80" alt="Neon Run" />
+              <h3>Neon Run</h3>
+              <button>Play Story</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="discover-view view-panel">
+          <h2><span>Candy AI</span> Characters</h2>
+          <div class="filters">
+            <label class="search"><i data-lucide="search"></i><input type="search" placeholder="Search" /></label>
+            <button class="chip active">All</button>
+            <button class="chip">Caucasian</button>
+            <button class="chip">Latina</button>
+            <button class="chip">Asian</button>
+            <button class="chip">18-21</button>
+            <button class="chip">Blonde</button>
+            <button class="chip">Brunette</button>
+            <button class="chip">Redhead</button>
+            <button class="chip">Milf</button>
+            <button class="chip">Arab</button>
+          </div>
+          <div class="character-grid">
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=620&q=80" alt="Diana" />
+              <div><h3>Diana <span>37</span></h3><p>You matched with Diana on a journey app. She is warm, steady, and easy to talk to...</p></div>
+            </article>
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=620&q=80" alt="Mona" />
+              <span class="series">▶ Series</span>
+              <div><h3>Mona <span>19</span></h3><p>Your rebellious classmate has one quiet weekend and a story she only shares with you...</p></div>
+            </article>
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=620&q=80" alt="Holly" />
+              <span class="series">▶ Series</span>
+              <div><h3>Holly <span>39</span></h3><p>Your neighbor catches you in the hallway and asks for help with a small mystery...</p></div>
+            </article>
+            <article class="shorts-card">
+              <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=620&q=80" alt="Candy Shorts" />
+              <button>Watch Candy Shorts</button>
+            </article>
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1524255684952-d7185b509571?auto=format&fit=crop&w=620&q=80" alt="Lena" />
+              <div><h3>Lena <span>24</span></h3><p>A mountain guide with a bright laugh and too many stories about getting lost...</p></div>
+            </article>
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=620&q=80" alt="Raven" />
+              <span class="series">▶ Series</span>
+              <div><h3>Raven <span>22</span></h3><p>Late-night music, sharp eyeliner, and a message that arrives just after midnight...</p></div>
+            </article>
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=620&q=80" alt="Sofia" />
+              <div><h3>Sofia <span>26</span></h3><p>Soft-spoken, curious, and ready to turn a quiet afternoon into a real conversation...</p></div>
+            </article>
+            <article class="character-card" data-route="chat">
+              <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=620&q=80" alt="Yuna" />
+              <span class="series">▶ Series</span>
+              <div><h3>Yuna <span>23</span></h3><p>Doing field notes on a remote island and hoping someone stays awake with her...</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="chat-view view-panel">
+          <div class="chat-list">
+            <h2>Chat</h2>
+            <label class="search chat-search"><i data-lucide="search"></i><input type="search" placeholder="Search for a profile..." /></label>
+            <button class="chat-profile active">
+              <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=160&q=80" alt="Yuna Moon" />
+              <span><b>Yuna Moon</b><small>Okay, tent's up, lantern's ...</small></span>
+            </button>
+          </div>
+          <div class="conversation">
+            <header class="chat-head">
+              <div><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=160&q=80" alt="Yuna Moon" /><h2>Yuna</h2></div>
+              <div class="chat-tools"><button><i data-lucide="clapperboard"></i></button><button><i data-lucide="phone"></i></button><button><i data-lucide="list-plus"></i></button></div>
+            </header>
+            <div class="messages">
+              <div class="bubble">Okay, tent's up, lantern's on, and I officially survived day one 🌙 The island is unreal... white sand, green jungle, the ocean breathing right outside my tent. Real question... is sleeping under the stars a terrible idea, or am I overthinking it? 😉</div>
+              <div class="voice-row"><span><i data-lucide="volume-2"></i></span><time>6:55PM</time></div>
+            </div>
+            <form class="composer">
+              <textarea placeholder="Write a message..."></textarea>
+              <div class="composer-row">
+                <span>Show me the scene:</span>
+                <button type="button"><i data-lucide="image"></i>Image</button>
+                <button type="button"><i data-lucide="film"></i>Video</button>
+                <button class="send" type="submit" aria-label="Send"><i data-lucide="send"></i></button>
+              </div>
+            </form>
+          </div>
+          <aside class="profile-panel">
+            <div class="profile-photo">
+              <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=720&q=80" alt="Yuna Moon" />
+              <button class="carousel-arrow left"><i data-lucide="chevron-left"></i></button>
+              <button class="carousel-arrow right"><i data-lucide="chevron-right"></i></button>
+              <div class="dots mini"><span class="active"></span><span></span></div>
+            </div>
+            <div class="profile-bio">
+              <h2>Yuna Moon</h2>
+              <p>She's doing her thesis on a deserted island and needs someone to chat with after sunset. The island is hiding a mystery, and she might need you for more than field notes.</p>
+            </div>
+            <div class="about">
+              <h3>About me:</h3>
+              <p>Warm, adventurous, curious, and always up for a late-night story.</p>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
